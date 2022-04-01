@@ -1,0 +1,11 @@
+name = "notes"
+type = "webpack"
+account_id = "20bf2f5d11d26a322e389687896a6601"
+workers_dev = true
+route = "vans163.com/*"
+zone_id = "7eb7d33c137e88416c432f9ac5a4ecdf"
+
+[site]
+bucket = "./"
+include = ["index.html", "md/**/*"]
+entry-point = "workers-site"
